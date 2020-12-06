@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video class="background-video" src="welcomePage.mp4" autoplay loop muted></video>
+    <div class="container">
+        <div class="search-container">
+            <input class="search-input" type="text" name="" id="search-input" placeholder="Name or Zipcode">
+            <button class="search-input" id="search-btn" >Search</button>
+        </div>
+        <div class="title">
+            <h1>Welcome to Weather application</h1>
+            <p>Be awere of the weather from your home</p>
+        </div>
+        <div class="weather-container">
+            <div class="weather-description">
+                <h2 id="city-header"></h2>
+                <h2 id="country"></h2>
+                <div id="weather-main">
+                    <div class="temperature" id="temperature"></div>
+                    <div class="weather-description" id="weather-description-header"></div>
+                    <div><img class="weather-icon" id="document-icon" src="" alt=""></div>
+                </div>
+                <hr>
+                <div id="wind-speed" class="bottom-details"></div>
+                <div id="humidity" class="bottom-details"></div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
